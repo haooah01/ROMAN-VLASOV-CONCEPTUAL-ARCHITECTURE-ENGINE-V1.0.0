@@ -1,0 +1,89 @@
+TTH — INSIDE CONTENT LAYER
+NOTE: INDEX ITEM AS A UNIT OF DIMENSION
+Version: 1.0
+Date: 2026-10-20
+
+1. CORE DEFINITION
+Một mục chỉ mục không tự nó là “một chiều” theo nghĩa hình học. Nó là một NODE — đơn vị định danh nhỏ nhất trong bản đồ nội dung, dùng để xác định một đối tượng/cơ chế có thể được phân biệt, truy xuất, mở rộng và kiểm chứng.
+
+Tên đề xuất:
+CONTENT INDEX UNIT (CIU) = Đơn vị chỉ mục nội dung.
+
+2. MỘT CIU ĐẠI DIỆN CHO ĐIỀU GÌ?
+Mỗi CIU là một điểm định vị trong không gian tri thức, có thể được mô tả bằng nhiều trục độc lập:
+- X — BREADTH: nhánh/chủ đề nào?
+- Y — DEPTH: đang ở cấp phân rã nào?
+- Z — MECHANISM: chức năng, quan hệ hoặc cơ chế nào đang được mô tả?
+- E — EVIDENCE: mức bằng chứng nào hỗ trợ mục này?
+- T — STATE: trạng thái phát triển/kiểm chứng hiện tại?
+
+X/Y/Z là mô hình tổ chức khái niệm, không phải tuyên bố rằng mọi nội dung đều có tọa độ vật lý thực.
+E và T là metadata quản trị chất lượng, không nhất thiết là chiều hình học.
+
+3. ĐỊNH NGHĨA ĐƠN VỊ CHUẨN
+Một mục chỉ mục đạt chuẩn nên có:
+1. ID: mã duy nhất.
+2. NAME: tên ngắn, không mơ hồ.
+3. PARENT: mục cha.
+4. SCOPE: nội dung được bao gồm và loại trừ.
+5. DIMENSION: trục/nhánh mà mục thuộc về.
+6. MECHANISM: điều gì vận hành hoặc quan hệ nào tồn tại.
+7. INPUT → PROCESS → OUTPUT: nếu mục mô tả một cơ chế.
+8. EVIDENCE: nguồn hoặc quan sát hỗ trợ.
+9. STATUS: verified / inferred / hypothesis / unknown.
+10. EXIT TEST: tiêu chí để biết mục đã đủ rõ hay còn cần phân rã.
+
+4. QUY TẮC PHÂN RÃ
+Chỉ tách một mục thành mục con khi mục cha chứa ít nhất một trong các khác biệt có ý nghĩa:
+- Cơ chế khác nhau.
+- Đầu vào/đầu ra khác nhau.
+- Ràng buộc hoặc điều kiện áp dụng khác nhau.
+- Phương pháp kiểm chứng khác nhau.
+- Quyết định thực thi khác nhau.
+
+Không tách chỉ để tăng số dòng, tạo cảm giác sâu hoặc đạt một số cấp cố định.
+
+5. PHÂN BIỆT BA LỚP
+A. CONTENT LAYER — Nội dung thực sự cần hiểu:
+Triết lý, hình khối, không gian, vật liệu, ánh sáng, kỹ thuật dựng hình, hậu kỳ, phân phối...
+
+B. INDEX LAYER — Bản đồ định vị:
+ID, tên mục, mục cha/con, phạm vi, quan hệ và trục phân loại.
+
+C. EVIDENCE & VALIDATION LAYER — Lớp kiểm chứng xuyên suốt:
+Nguồn, tác giả, quan sát trực tiếp, giả thuyết, kiểm thử, phản ví dụ, độ bất định và quy tắc dừng.
+
+Không nhầm bản đồ với lãnh thổ: chỉ mục cho biết cần tìm hiểu điều gì; nó không tự chứng minh nội dung là đúng.
+
+6. VÍ DỤ
+ID: 02.03.01
+NAME: TERRAIN COUPLING
+PARENT: 02.03 SPATIAL–TERRAIN RELATIONSHIP
+SCOPE: Cách khối kiến trúc liên hệ với địa hình.
+MECHANISM: Khối công trình có thể bám, cắt, nâng, chôn hoặc tương phản với địa hình.
+INPUT: địa hình, cao độ, chương trình sử dụng, điều kiện tiếp cận.
+PROCESS: chọn quan hệ giữa nền đất và khối công trình.
+OUTPUT: cấu hình không gian và hình khối.
+EVIDENCE: bản vẽ, ảnh công trình, mô hình hoặc mô tả dự án cụ thể.
+STATUS: unknown cho đến khi có bằng chứng dự án; các lựa chọn cơ chế ở trên chỉ là taxonomy khái niệm.
+EXIT TEST: các phương án được phân biệt rõ và có tiêu chí nhận diện.
+
+7. MỤC TIÊU THIẾT KẾ INDEX
+Không đặt mục tiêu “mô tả tất cả mọi thứ” bằng cách kéo dài chỉ mục vô hạn.
+Mục tiêu là tạo một bản đồ có thể:
+- Định vị được mỗi khái niệm.
+- Phân biệt các cơ chế không trùng lặp.
+- Truy ngược về nguồn/bằng chứng.
+- Chỉ ra phần đã biết, phần suy luận và phần chưa biết.
+- Hướng dẫn hành động hoặc nghiên cứu tiếp theo.
+- Dừng phân rã khi không còn khác biệt hữu ích.
+
+8. CÔNG THỨC NÉN
+CIU = ID + SCOPE + PARENT/RELATIONS + MECHANISM + EVIDENCE/STATUS + EXIT TEST
+
+Một CIU tốt không nhất thiết dài. Nó tốt khi có ranh giới rõ, không trùng lặp, truy xuất được và tạo ra khác biệt hữu ích trong hiểu biết hoặc quyết định.
+
+KẾT LUẬN
+“Một mục chỉ mục là một đơn vị chiều” nên được diễn đạt chính xác hơn là:
+“Một mục chỉ mục là một đơn vị định vị trong không gian nội dung đa trục.”
+Mỗi mục là một node; các chiều là những trục phân loại độc lập; độ sâu là mức phân rã; bằng chứng là lớp xác thực. Số lượng mục không tự động đồng nghĩa với độ bao phủ, độ đúng hay mức độ làm chủ.
