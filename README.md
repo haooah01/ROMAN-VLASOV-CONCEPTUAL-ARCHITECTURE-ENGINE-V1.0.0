@@ -8,5 +8,7 @@ Structures(Multiple) -Connected("The software is built with multiple invisible s
 <img width="1376" height="768" alt="Gemini_Generated_Image_6e9mfu6e9mfu6e9m" src="https://github.com/user-attachments/assets/c22e0dc7-408c-47fe-9f20-6efb2fe7bfd6" />
 <img width="1408" height="768" alt="Gemini_Generated_Image_k5whi0k5whi0k5wh" src="https://github.com/user-attachments/assets/0599d701-96e5-4253-9bbb-29c8a894fc41" />
 <img width="1376" height="768" alt="Gemini_Generated_Image_cr1gyjcr1gyjcr1g" src="https://github.com/user-attachments/assets/d14bdb36-1395-4b34-9ed0-6c9f2e924ad1" />
+Layer Of XYZD Dimensional
+<img width="1312" height="1199" alt="72ecb2dd-b5ed-4ccf-88ea-36e7e9d4b235" src="https://github.com/user-attachments/assets/86492a9b-36b4-4a34-bf55-fcab722ce182" />
 
 
